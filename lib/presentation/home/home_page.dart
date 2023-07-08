@@ -16,10 +16,6 @@ class MyHomePage extends StatelessWidget {
               message: state.errorMsg,
             );
           }
-          CustomWidgets.showSnackBar(
-            context: context,
-            message: state.movieTitle,
-          );
         },
         child: Scaffold(
           appBar: AppBar(
